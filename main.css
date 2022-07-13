@@ -114,6 +114,10 @@ nav p {
     display: inline;
 }
 
+nav a {
+    text-decoration: none;
+}
+
 #account-button {
     border: rgb(179, 179, 179) solid 1px;
     border-radius: 3px;
