@@ -5,41 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    </style>
     <title>Mockup</title>
 </head>
 <body>
-    <img src="https://via.placeholder.com/103x31" alt="">
-    <div>
-        <h2>Sign In</h2>
+    <img id="centerimage" src="https://via.placeholder.com/103x31" alt="">
+    <div id="border">
+        <h2 id="sign-in-padding">Sign In</h2>
         <form action="" method="post">
-            <div>
-            <label for="email">Email (phone or mobile accounts)</label><br>
-            <input type="text" id="email" name="email" placeholder="Enter Email"><br>
+            <div  class="textbox">
+                <div class="container">
+                <label for="email" class="fontsize1">Email (phone or mobile accounts)</label><br>
+                </div>
+                <input type="text" id="email" name="email" placeholder="Enter Email"><br>
             </div>
-            <div>
-            <label for="password">Password</label><br>
-            <input type="text" id="password" name="password" placeholder="Password"><br>
+            <br>
+            <div  class="textbox">
+                <div class="container">
+                    <label for="password" class="fontsize1">Password</label>
+                    <div class="fontsize1 bluetext">Forgot Password</div>
+                </div>
+                <input type="text" id="password" name="password" placeholder="Enter Password"><br>
             </div>
-            <div>
-            <input type="submit" value="Continue">
+            <div class="textbox">
+            <input type="submit" value="Continue" class="fontsize1" id="yellowbutton">
             </div>
         </form>
-        <p>&#9656; Need Help?</p>
-        <p>New To Amazon?</p>
-        <form action="" method="post">
-            <input type="submit" value="Create Your Amazon Account">
-        </form>
-    </div>
-    <hr>
-    <footer>
-        <nav>
-            <ul>
-                <li>Conditions of Use</li>
-                <li>Privacy Policy</li>
-                <li>Help</li>
-            </ul>
+        <p class="fontsize1 bluetext textbox">&#9656; Need Help?</p>
+    </div><br>
+        <div id="center2">
+            <p id="fontsize3">New To Amazon?</p>
+            <form action="" method="post">
+                <input id="account-button" type="submit" value="Create Your Amazon Account" class="fontsize1">
+            </form>
+        </div>
+    
+    <footer class="fontsize2">
+        <hr>
+        <div>
+        <nav class="bluetext container2">
+            <p>Conditions of Use&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>Privacy Policy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>Help</p>
         </nav>
         <p>&copy 1996-2020, Amazon.com, inc or its affiliates</p>
+        </div>
     </footer>
 </body>
 </html>
